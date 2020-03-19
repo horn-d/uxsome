@@ -1,0 +1,221 @@
+/* colors
+yellow: #f5d05e
+blue: #7aadb4 */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lucida sans;
+    background-image: url(/image/boblergule.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 20%;
+    padding-left: 50px;
+    top: -1em;
+    position: absolute;
+}
+
+/* undersider */
+
+.arrow {
+    position: fixed;
+    left: 40px;
+    font-size: 15em;
+    text-decoration: none;
+    color: #7aadb4;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding-top: 90px;
+}
+
+.u h1 {
+    position: absolute;
+    top: 0;
+    font-size: 50px;
+    right: 42%;
+    color: #7b8387;
+}
+
+
+/*  Frontpage */
+
+.fp article {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+}
+
+.fp article h1 {
+    text-align: center;
+}
+
+.fp .nyheder {
+    background-color: #7aadb4;
+    border-radius: 12px;
+    margin: 10% 4% 4% 4%;
+    height: 70%;
+    color: white;
+}
+
+.fp .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: space-evenly;
+    font-size: 1.7em;
+    right: 20%;
+}
+
+.fp a {
+    color: white;
+    background-color: #7aadb4;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 12px;
+}
+
+/* borrow */
+
+.bo iframe {
+    width: 50%;
+    height: 600px;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+}
+
+/* anbefalinger */
+
+.ab .hoved {
+    border-radius: 50%;
+    width: 50%;
+    height: 25%;
+    object-fit: cover;
+}
+
+.ab article {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10%;
+}
+
+.ab section {
+    width: 24%;
+    margin: 4%;
+}
+
+.ab section div {
+    background-color: #7aadb4;
+    border-radius: 12px;
+}
+
+.ab section img {
+    display: block;
+    margin: auto;
+}
+
+.ab section div img {
+    width: 80%;
+    padding-bottom: 10%;
+
+}
+
+/* udstyr */
+
+.ud article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 8% 6% 0 6%;
+}
+
+.ud .oversigt a {
+    background-color: #7aadb4;
+    border-radius: 12px;
+    width: 30%;
+    height: 260px;
+    margin: 2%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.ud .oversigt img {
+    width: 110px;
+    padding-top: 60px;
+}
+
+
+/* UNDERSIDER */
+
+.un article h2 {
+    text-align: center;
+}
+
+.collapsible {
+    background-color: #7aadb4;
+    color: white;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #7aadb4;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.content {
+    margin: auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    border-radius: 12px;
+}
+
+
+.un article img {
+    max-width: 40%;
+    max-height: 400px;
+    float: left;
+}
+
+.un article section {
+    width: 50%;
+    margin: auto;
+    border-radius: 12px;
+    margin-bottom: 2em;
+}
+
+.un article button {
+}
+
+
+
